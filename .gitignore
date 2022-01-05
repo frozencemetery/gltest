@@ -1,4 +1,4 @@
-build-aux
+/build-aux
 *~
 configure
 config.*

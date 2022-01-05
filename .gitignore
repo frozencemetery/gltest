@@ -1,0 +1,14 @@
+build-aux
+*~
+configure
+config.*
+*.in
+lib
+*.o
+autom4te.cache
+Makefile
+.deps
+aclocal.m4
+gltest
+stamp-h1
+m4

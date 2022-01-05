@@ -1,0 +1,17 @@
+AC_INIT([gltest], [0])
+
+AC_CONFIG_AUX_DIR([build-aux])
+AM_INIT_AUTOMAKE([1.11])
+
+AC_PREREQ(2.64)
+
+AC_CONFIG_HEADERS([config.h])
+AC_CONFIG_MACRO_DIRS([m4])
+
+AC_CONFIG_FILES([Makefile lib/Makefile])
+
+AC_PROG_CC
+gl_EARLY
+gl_INIT
+
+AC_OUTPUT
